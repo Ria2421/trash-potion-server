@@ -27,7 +27,7 @@ namespace Trash_Portion_Server
         /// <summary>
         /// プレイヤー人数
         /// </summary>
-        private const int playerNum = 2;
+        private const int playerNum = 4;
 
         /// <summary>
         /// 接続人数カウント用
@@ -72,15 +72,15 @@ namespace Trash_Portion_Server
             {
                 try
                 {
-                    // 接続要求受付＆接続作成
-                    TcpClient tcpClient = await tcpListener.AcceptTcpClientAsync();   // Accept : 接続受付処理
-
                     if (connectNo == playerNum)
                     {
                         // リストの初期化
-                        clients.Clear();
+                        clients = new List<TcpClient>();
                         connectNo = 0;
                     }
+
+                    // 接続要求受付＆接続作成
+                    TcpClient tcpClient = await tcpListener.AcceptTcpClientAsync();   // Accept : 接続受付処理
 
                     // 接続カウント加算
                     connectNo++;
@@ -113,29 +113,6 @@ namespace Trash_Portion_Server
                     clients.Clear();
                 }
             }
-
-            //// サーバーからPL番号を受信
-            //buffer = new byte[1024];                                               // 送受信データ格納用
-            //stream = tcpClient.GetStream();                                        // クライアントのデータ送受信に使うNetworkStreamを取得
-            //int length = await stream.ReadAsync(buffer, 0, 1);                     // 受信データのバイト数を取得
-            //string recevieString = Encoding.UTF8.GetString(buffer, 0, length);     // 受信データを文字列に変換
-
-            //// スレッドの生成・開始
-            //Thread thread = new Thread(new ParameterizedThreadStart(DoWork));
-            //thread.Start(tcpClient);
-
-            //for (int j = 0; j < playerNum; j++)
-            //{
-            //    NetworkStream stream2 = clients[j].GetStream();
-            //    byte[] buffer = Encoding.UTF8.GetBytes("完了");        // 文字列をbyteに変換
-            //    await stream2.WriteAsync(buffer, 0, buffer.Length);    // レスポンスの送信処理
-
-            //    clients[j].Close();
-            //}
-
-            //// エラー発生時
-            //Console.WriteLine(ex);
-            //Console.ReadLine();
         }
     }
 }
