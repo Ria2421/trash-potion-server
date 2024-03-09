@@ -362,6 +362,30 @@ namespace Trash_Portion_Server
 #endif
                             break;
 
+                        case (int)EventID.PotionThrow:
+
+                            recevieString = "";
+
+                            // 全クライアント送信処理
+                            SendAllClients(recevieString, (int)EventID.PotionThrow);
+
+                            break;
+
+                        case (int)EventID.PotionSetPos:
+
+                            //- 受信処理 -//
+
+                            // 受信データから文字列(設置位置)を取り出す
+                            bufferJson = buffer.Skip(1).ToArray();                               // 1バイト目をスキップ
+                            recevieString = Encoding.UTF8.GetString(bufferJson, 0, length - 1);  // 受信データを文字列に変換
+
+                            //- 送信処理 -//
+
+                            // 全クライアント送信処理
+                            SendAllClients(recevieString, (int)EventID.PotionSetPos);
+
+                            break;
+
                         // ---------- //
                         // デフォルト //
                         default: 
