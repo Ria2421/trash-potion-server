@@ -27,7 +27,7 @@ namespace Trash_Portion_Server
         /// <summary>
         /// プレイヤー人数
         /// </summary>
-        private const int playerNum = 2;
+        private const int playerNum = 4;
 
         /// <summary>
         /// 接続人数カウント用
