@@ -31,6 +31,7 @@ public enum EventID
     PotionFailure,    // 生成失敗
     PotionThrow,      // 投擲処理
     PotionSetPos,     // 投擲位置
+    GameEnd,          // ゲーム終了フラグ
 }
 
 /// <summary>

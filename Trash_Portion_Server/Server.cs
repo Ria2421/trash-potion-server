@@ -58,6 +58,11 @@ namespace Trash_Portion_Server
         List<UserData> userDatas = new List<UserData>();
 
         /// <summary>
+        /// ゲーム終了フラグ
+        /// </summary>
+        bool gameEndFlag;
+
+        /// <summary>
         /// タイル配置設定
         /// 0:Wall 1:NormalTile 2:SpawnPoint 3:Object1 4: -
         /// </summary>
@@ -93,27 +98,6 @@ namespace Trash_Portion_Server
         {0,4,0,0,0,0,0,0,0,2,0},
         {0,0,0,0,0,0,0,0,0,0,0},
         };
-
-        /// <summary>
-        /// DB接続情報
-        /// </summary>
-        //        static MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder
-        //        {
-        //#if DEBUG
-        //            // デバッグ時はローカルに接続
-        //            Server = "localhost",
-        //            Database = "quizking",
-        //            UserID = "root",
-        //            Password = "",
-        //#else
-        //            // 本始動の時はオンラインに接続
-        //            Server = "db-ge-07.mysql.database.azure.com",
-        //            Database = "quizking",
-        //            UserID = "student",
-        //            Password = "Yoshidajobi2023",
-        //            SslMode = MySqlSslMode.Required,
-        //#endif
-        //        };
 
         //------------------------------------------------------------------------------
         // メソッド -------------------------------------------
@@ -386,6 +370,15 @@ namespace Trash_Portion_Server
 
                             break;
 
+                        case (int)EventID.GameEnd:
+
+                            // ゲーム終了フラグをtrueに
+                            gameEndFlag = true;
+
+                            Console.WriteLine("ゲーム終了");
+
+                            break;
+
                         // ---------- //
                         // デフォルト //
                         default: 
@@ -406,6 +399,12 @@ namespace Trash_Portion_Server
                     SendAllClients(json,(int)EventID.InSelectFlag);
 
                     readyCnt = 0;
+                }
+
+                if(gameEndFlag)
+                {
+                    // whileループから抜けてスレッド終了
+                    break;
                 }
             }
         }
