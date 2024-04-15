@@ -107,8 +107,6 @@ namespace Trash_Portion_Server
                     Console.WriteLine("切断されました");
                     Console.WriteLine(ex.ToString());
 
-                    /* タイトル移行命令をクライアントに出す */
-
                     // クライアントリストを初期化
                     clients.Clear();
                 }

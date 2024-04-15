@@ -1,6 +1,5 @@
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Portion_Server.csproj.AssemblyReference.cache
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Portion_Server.csproj.CoreCompileInputs.cache
-C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Portion_Server.csproj.CopyComplete
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\Trash_Portion_Server.exe.config
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Portion_Server.exe
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Portion_Server.pdb
@@ -45,3 +44,4 @@ C:\Users\student\git\trash-potion-server\Trash_Portion_Server\bin\Release\System
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\bin\Release\System.Numerics.Vectors.xml
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\student\git\trash-potion-server\Trash_Portion_Server\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\student\git\trash-potion-server\Trash_Portion_Server\obj\Release\Trash_Po.21CFB929.Up2Date
