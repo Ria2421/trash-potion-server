@@ -24,3 +24,29 @@ C:\Users\student\Documents\Visual Studio 2022\Projects\Console\Trash_Portion_Ser
 C:\Users\student\Documents\Visual Studio 2022\Projects\Console\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.csproj.CopyComplete
 C:\Users\student\Documents\Visual Studio 2022\Projects\Console\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.exe
 C:\Users\student\Documents\Visual Studio 2022\Projects\Console\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.pdb
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Trash_Portion_Server.exe.config
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Trash_Portion_Server.exe
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Trash_Portion_Server.pdb
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\MySqlConnector.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Buffers.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Memory.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\MySqlConnector.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Buffers.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Memory.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.csproj.AssemblyReference.cache
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.csproj.CoreCompileInputs.cache
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\obj\Debug\Trash_Po.21CFB929.Up2Date
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.exe
+C:\Users\nakam\Documents\git\trash-potion-sever\Trash_Portion_Server\obj\Debug\Trash_Portion_Server.pdb
